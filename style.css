@@ -1,0 +1,170 @@
+.navigationbar {
+  font-weight: 600;
+  width: 375px;
+  height: 64px;
+  margin: 0px;
+}
+.navigationbar .title {
+  font-size: 17.5px;
+  position: absolute;
+  top: 31px;
+  left: 171px;
+}
+.navigationbar .back {
+  width: 22px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  stroke: black;
+  stroke-width: 3px;
+}
+.navigationbar .cart {
+  width: 22px;
+  height: 20px;
+  position: absolute;
+  top: 29px;
+  left: 329px;
+}
+
+.tabbar {
+  font-weight: 400;
+  margin: auto;
+  font-size: 10px;
+  margin: 0px;
+  width: 100%;
+  height: 47px;
+  position: absolute;
+  text-align: center;
+  top: 620px;
+  background-color: white;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  box-shadow: 0px 2px 7px rgba(19, 0, 6, 0.78);
+}
+.tabbar .coupon {
+  position: absolute;
+  top: 10px;
+  left: 48px;
+}
+.tabbar .coupon img {
+  width: 25px;
+  z-index: 2;
+}
+.tabbar .coupon p {
+  margin-top: 3px;
+  z-index: 2;
+}
+.tabbar .home {
+  position: absolute;
+  top: 10px;
+  left: 179px;
+}
+.tabbar .home img {
+  width: 20px;
+  z-index: 2;
+}
+.tabbar .home p {
+  margin-top: 3px;
+  z-index: 2;
+}
+.tabbar .profile {
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+.tabbar .profile img {
+  width: 16px;
+  z-index: 2;
+}
+.tabbar .profile p {
+  margin-top: 3px;
+  z-index: 2;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0;
+}
+
+#big-menu #drinks, #big-menu #side-meal, #big-menu #main-meal, #people #many, #people #one {
+  font-weight: 700;
+  width: 331px;
+  height: 116px;
+  position: absolute;
+  text-align: right;
+  left: 22px;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 0px 2px 5px rgba(158, 77, 100, 0.5);
+}
+#big-menu #drinks p, #big-menu #side-meal p, #big-menu #main-meal p, #people #many p, #people #one p {
+  font-size: 17px;
+  top: 46px;
+  left: 255px;
+  position: absolute;
+}
+
+.button,
+.container {
+  position: relative;
+}
+
+#people #one {
+  top: 205px;
+}
+#people #one img {
+  width: 60px;
+  top: 26px;
+  left: 38px;
+  position: absolute;
+  z-index: 2;
+}
+#people #many {
+  top: 346px;
+}
+#people #many img {
+  width: 80px;
+  top: 16px;
+  left: 26px;
+  position: absolute;
+  z-index: 2;
+}
+
+#big-menu #main-meal {
+  top: 89px;
+}
+#big-menu #main-meal img {
+  width: 74px;
+  top: 25px;
+  left: 38px;
+  position: absolute;
+  z-index: 2;
+}
+#big-menu #side-meal {
+  top: 230px;
+}
+#big-menu #side-meal img {
+  width: 59px;
+  top: 18px;
+  left: 43px;
+  position: absolute;
+  z-index: 2;
+}
+#big-menu #drinks {
+  top: 371px;
+}
+#big-menu #drinks img {
+  width: 51px;
+  top: 16px;
+  left: 48px;
+  position: absolute;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=style.css.map */
