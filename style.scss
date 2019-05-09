@@ -33,31 +33,6 @@ body {
     position: relative;
 }
 
-#people {
-    #one {
-        top: 205px;
-        @extend %button-style;
-        img {
-            width: 60px;
-            top: 26px;
-            left: 38px;
-            position: absolute;
-            z-index: 2;
-        }
-    }
-    #many {
-        top: 346px;
-        @extend %button-style;
-        img {
-            width: 80px;
-            top: 16px;
-            left: 26px;
-            position: absolute;
-            z-index: 2;
-        }
-    }
-}
-
 #big-menu {
     #main-meal {
         top: 89px;
